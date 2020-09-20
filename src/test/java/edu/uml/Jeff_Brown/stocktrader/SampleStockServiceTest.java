@@ -6,7 +6,9 @@ import org.junit.Test;
 import java.sql.Timestamp;
 import java.util.Calendar;
 import static org.junit.Assert.assertNotNull;
-
+/**
+ * This class tests the simple stock purchase service to be used with the stockServiceFactory.
+ */
 public class SampleStockServiceTest{
     StockService service;
     Timestamp timestamp;

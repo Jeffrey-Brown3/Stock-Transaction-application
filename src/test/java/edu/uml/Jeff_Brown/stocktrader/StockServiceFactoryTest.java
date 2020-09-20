@@ -6,7 +6,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
-
+/**
+ * This class tests the sample stock service to pass to client code when requested.
+ */
 public class StockServiceFactoryTest{
 
     StockService returned = new SampleStockService();

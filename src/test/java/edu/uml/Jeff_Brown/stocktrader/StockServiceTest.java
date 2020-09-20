@@ -9,7 +9,9 @@ import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.List;
 
-
+/**
+ * This tests a simple stock purchase service.
+ */
 public class StockServiceTest{
     StockService myStockService;
     Timestamp timestamp;
